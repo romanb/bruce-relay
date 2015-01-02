@@ -50,7 +50,7 @@ parseOptions = execParser (info (helper <*> optsParser) desc)
                 <> metavar "PORT"
                 <> help "Port to listen on")
         <*> (strOption $
-                long "destination"
+                long "dest"
                 <> short 'd'
                 <> metavar "FILE"
                 <> help "Path to the Bruce UNIX domain datagram socket")
