@@ -16,6 +16,8 @@ executable bruce-relay
     default-language:    Haskell2010
     main-is:             Main.hs
   
+    ghc-options: -Wall -fwarn-tabs
+
     build-depends:
           base >= 4.7 && <4.8
         , bruce-socket >= 0.1

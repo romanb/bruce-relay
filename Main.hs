@@ -1,7 +1,6 @@
 module Main where
 
 import Control.Concurrent (forkFinally)
-import Control.Exception
 import Control.Monad (forever, void)
 import Network.Bruce.Socket
 import Options.Applicative
